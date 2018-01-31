@@ -1,0 +1,6 @@
+name=input("Enter your name: ")
+surname=input("Enter your surname: ")
+group=input("Enter your group: ")
+university=input("Enter your university: ")
+mark=input("Enter your mark: ")
+print("I am {} {}, im styding in university {} at {}, my average mark is {}".format(name.title(),surname.title(),group,university.upper(),mark))
