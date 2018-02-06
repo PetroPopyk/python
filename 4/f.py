@@ -4,7 +4,8 @@ code_a=code.replace(" ","")
 print(code_a)
 from textwrap import wrap
 code_b=wrap(code_a, 5)
-del code_b[-1]
+if len(code_b[-1])<5:
+    del code_b[-1]
 print(code_b)
 new_code=''
 for a in code_b:
