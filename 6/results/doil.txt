@@ -1,0 +1,3 @@
+lines: 5048
+words: 106855
+symbols: 561036
